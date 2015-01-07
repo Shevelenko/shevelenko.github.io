@@ -1,0 +1,72 @@
+/* Larger than tablet */
+/*@media (min-width: 750px) {*/
+
+body {
+  background: #f1f1f1;
+}
+
+.video_screen {
+  /*display: block;
+  text-align: center;*/
+}
+
+  /* Navbar */
+  .navbar + .docs-section {
+    border-top-width: 0; }
+  .navbar,
+  .navbar-spacer {
+    display: block;
+    width: 100%;
+    height: 6.5rem;
+    background: #f1f1f1;
+    z-index: 99;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    text-align: center; }
+  .navbar-spacer {
+    display: none; }
+  /*.navbar > .container {
+    width: 100%; }*/
+  .navbar-list {
+    list-style: none;
+    margin-bottom: 0;
+    display:inline-block;
+     }
+  .navbar-item {
+    position: relative;
+    float: left;
+    margin-bottom: 0; }
+  .navbar-link {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #222; }
+  .navbar-link.active {
+    color: #33C3F0; }
+
+/*.client {
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 20px;
+}*/
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.client_img {
+  /*display: block;*/
+  vertical-align: middle;
+  max-height: 140px;
+  max-width: 140px;
+}
+  
