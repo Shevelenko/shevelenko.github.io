@@ -13,9 +13,15 @@ body {
   margin-left: auto;
 }
 
+.footer{
+  margin-bottom: 5%;
+}
+
 .video_screen {
   /*display: block;
   text-align: center;*/
+  max-height: 157px;
+  max-width: 280px;
 }
 
   /* Navbar */

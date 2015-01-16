@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <img class="main_logo" src="public/images/logo.png">
+        <div class="main_logo_text">
+          VIDEO
+          DILLERS
+        </div>
+      </div>
+
+      <div class="container">
+        <nav class="navbar">
+          <div class="container">
+            <ul class="navbar-list">
+              <li class="navbar-item"><a class="navbar-link" href="#home">{{ site.text_1 }}</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="#about">{{ site.text_2 }}</a></li>
+              <li class="navbar-item"><a class="navbar-link" style="margin-right: 0;"  href="#contact">{{ site.text_3 }}</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="row">
+          <div class="four columns">
+            {{ site.text_4 }}
+          </div>
+          <div class="four columns">
+            {{ site.text_5 }}
+          </div>
+          <div class="four columns">
+            {{ site.text_6 }}
+          </div>
+        </div>
+
+        {{ content }}
+
+      </div>
+    </div>
+    
+    {% include footer.html %}
+
+  </body>
+</html>

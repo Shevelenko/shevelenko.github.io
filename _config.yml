@@ -1,0 +1,21 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Dragonfruit
+tagline:          Video Dillers
+url:              http://dragonfruit.mashinka.org
+
+baseurl:          /
+
+
+site_description: write something
+text_1: who we are
+text_2: how it works
+text_3: contact
+
+text_4: we love video
+text_5: we do video
+text_6: you get profit
+

@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+{% for video in site.data.videos %}
+  {% assign mod = forloop.index | modulo:3 %}
+  {% case mod %}
+    {% when 1 %}
+      <div class="row" style="margin-top: 10%">
+        {% include video_screen.html %}
+    {% when 2 %}
+        {% include video_screen.html %}
+    {% when 0 %}
+        {% include video_screen.html %}
+      </div>
+  {% endcase %}
+{% endfor %}
+</div>
+
