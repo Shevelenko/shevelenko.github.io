@@ -23,9 +23,30 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
 
+  <link rel="stylesheet" href="css/magnific-popup.css"> 
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.ico">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+  <script src="js/vendor/jquery.magnific-popup.js"></script>
+
+  <script>
+
+    $(document).ready(function() {
+      $('.popup-vimeo').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+
+        fixedContentPos: false
+      });
+    });
+
+  </script>
 
 </head>
 <body>
@@ -33,7 +54,10 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="main_logo">
+    <img class="main_logo" src="images/logo.png">
+    <div class="main_logo_text">
+      VIDEO
+      DILLERS
     </div>
   </div>
   <div class="container">
@@ -41,19 +65,35 @@
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href="#home">Home</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
-          <li class="navbar-item"><a class="navbar-link" style="margin-right: 0;"  href="#how">Get in touch</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#home">who we are</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#about">how it works</a></li>
+          <li class="navbar-item"><a class="navbar-link" style="margin-right: 0;"  href="#how">contact</a></li>
         </ul>
       </div>
     </nav>
 
-    <div class="row" style="margin-top: 10%">
+    <div class="row">
       <div class="four columns">
-        <img class="video_screen" src="images/screens/video_1.jpg">
+        we love video
       </div>
       <div class="four columns">
-        <img class="video_screen" src="images/screens/video_2.jpg">
+        we do video
+      </div>
+      <div class="four columns">
+        you get profit
+      </div>
+    </div>
+    
+    <div class="row" style="margin-top: 10%">
+      <div class="four columns">
+        <a class="popup-vimeo" href="http://vimeo.com/87701971">
+          <img class="video_screen" src="images/screens/video_1.jpg">
+        </a>
+      </div>
+      <div class="four columns">
+        <a class="popup-vimeo" href="http://vimeo.com/7578615">
+          <img class="video_screen" src="images/screens/video_2.jpg">
+        </a>
       </div>
       <div class="four columns">
         <img class="video_screen" src="images/screens/video_4.jpg">
