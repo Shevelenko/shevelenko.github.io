@@ -1,5 +1,12 @@
 <div class="four columns">
-  <a class="popup-vimeo" href="{{ video.video-url }}">
-    <img class="video_screen" src="{{ video.img }}">
-  </a>
+  <figure class="effect-selena">
+    <a class="popup-vimeo" href="{{ video.video-url }}">
+      <img class="video_screen" src="{{ video.img }}">
+    <figcaption>
+      <h2>{{ video.title }}</h2>
+      <p>{{ video.desc }}</p>
+    </figcaption>
+    </a>
+  </figure>
 </div>
+
