@@ -297,6 +297,13 @@ figure.effect-selena p {
   transform: perspective(1000px) rotate3d(1,0,0,90deg);
   -webkit-transform-origin: 50% 0%;
   transform-origin: 50% 0%;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0 0 8px #000;
+  /*text-shadow: black 0.2em 0.2em 0.2em;
+  text-shadow: black 0.2em 0.2em 0.2em;
+  text-shadow: black 0.2em 0.2em 0.2em;*/
 }
 
 figure.effect-selena:hover h2 {
