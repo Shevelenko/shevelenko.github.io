@@ -287,6 +287,8 @@ figure.effect-selena h2 {
   transition: transform 0.35s;
   -webkit-transform: translate3d(0,20px,0);
   transform: translate3d(0,20px,0);
+  text-shadow: 0 0 8px #000;
+  text-shadow: 0 0 5px #000;
 }
 
 figure.effect-selena p {
@@ -300,7 +302,7 @@ figure.effect-selena p {
   max-width: 200px;
   margin-left: auto;
   margin-right: auto;
-  text-shadow: 0 0 8px #000;
+  background-color:rgba(0, 0, 0, 0.5);
   /*text-shadow: black 0.2em 0.2em 0.2em;
   text-shadow: black 0.2em 0.2em 0.2em;
   text-shadow: black 0.2em 0.2em 0.2em;*/
