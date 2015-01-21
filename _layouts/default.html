@@ -12,12 +12,14 @@
       <div class="container">
         <img class="main_logo" src="public/images/logo.png">
         <div class="main_logo_text">
-          <div class="main_logo_video">
-            <span class="f_color">VIDEO</span>
-          </div>
-          <div class="main_logo_dillers">
-            <span class="s_color">DILL</span><span class="f_color" style="letter-spacing: -3px">E</span><span class="s_color">RS</span>
-          </div>
+          <a href="#home" id="home">
+            <div class="main_logo_video">
+              <span class="f_color">VIDEO</span>
+            </div>
+            <div class="main_logo_dillers">
+              <span class="s_color">DILL</span><span class="f_color" style="letter-spacing: -3px">E</span><span class="s_color">RS</span>
+            </div>
+          </a>
         </div>
       </div>
 
@@ -27,9 +29,9 @@
             <div class="menu_border">
             </div>
             <ul class="navbar-list">
-              <li class="navbar-item"><a class="f_color navbar-link" href="#home">{{ site.text_1 }}</a></li>
-              <li class="navbar-item"><a class="f_color navbar-link" href="#about">{{ site.text_2 }}</a></li>
-              <li class="navbar-item"><a class=" f_color navbar-link" style="margin-right: 0;"  href="#contact">{{ site.text_3 }}</a></li>
+              <li class="navbar-item"><a class="f_color navbar-link" href="#who-we-are" id="who_we_are">{{ site.text_1 }}</a></li>
+              <li class="navbar-item"><a class="f_color navbar-link" href="#how-it-works" id="how_it_works">{{ site.text_2 }}</a></li>
+              <li class="navbar-item"><a class=" f_color navbar-link" style="margin-right: 0;" id="contact" href="#contact">{{ site.text_3 }}</a></li>
             </ul>
           </div>
         </nav>
@@ -42,12 +44,11 @@
               <li class="slogan-item">{{ site.text_6 }}</li>
             </ul>
           </div>
-        </nav>
+        </div>
 
         {{ content }}
 
       </div>
-    </div>
     
     {% include footer.html %}
 

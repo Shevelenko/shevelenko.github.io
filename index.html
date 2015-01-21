@@ -2,11 +2,13 @@
 layout: page
 ---
 
+{% include contact.html %}
+
 {% for video in site.data.videos %}
   {% assign mod = forloop.index | modulo:3 %}
   {% case mod %}
     {% when 1 %}
-      <div class="row" style="margin-top: 2%">
+      <div class="row video_div" style="margin-top: 2%">
         {% include video_screen.html %}
     {% when 2 %}
         {% include video_screen.html %}
@@ -15,5 +17,5 @@ layout: page
       </div>
   {% endcase %}
 {% endfor %}
-</div>
+
 

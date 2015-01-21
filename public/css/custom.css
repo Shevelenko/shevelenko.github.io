@@ -17,12 +17,24 @@ body {
   border: 20px solid #c98ecb;
 }
 
+.contact_div{
+  font-size: 17px;
+  font-weight: 800;
+  text-decoration: none;
+  line-height: 4rem;
+}
+
 .f_color {
   color: #90dbfb;
 }
 
 .s_color {
   color: #e3d28d;
+}
+
+.main_logo_text a {
+  outline : none;
+  text-decoration: none;
 }
 
 .main_logo_text {
