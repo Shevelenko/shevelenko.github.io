@@ -59,7 +59,7 @@ body {
 }
 
 .footer{
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 .video_screen {
@@ -303,6 +303,7 @@ figure.effect-selena h2 {
   transition: transform 0.35s;
   -webkit-transform: translate3d(0,20px,0);
   transform: translate3d(0,20px,0);
+  font-size: 2.8rem;
   text-shadow: 0 0 8px #000;
   text-shadow: 0 0 5px #000;
 }
