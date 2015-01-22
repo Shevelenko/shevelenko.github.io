@@ -28,6 +28,17 @@ body {
   display: none;
 }
 
+.how_it_works_div{
+  font-size: 17px;
+  font-weight: 800;
+  text-decoration: none;
+  line-height: 4rem;
+  margin-top: 2%;
+  text-align: left;
+  margin-bottom: 20%;
+  display: none;
+}
+
 .f_color {
   color: #90dbfb;
 }
@@ -305,7 +316,7 @@ figure.effect-selena h2 {
   transform: translate3d(0,20px,0);
   font-size: 2.8rem;
   text-shadow: 0 0 8px #000;
-  text-shadow: 0 0 5px #000;
+  margin-top: 25px;
 }
 
 figure.effect-selena p {
