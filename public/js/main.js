@@ -17,6 +17,13 @@ $( document ).ready(function() {
     $(".video_div").show();
   });
 
+  $("#home_link").click(function(event){
+    event.preventDefault();
+    $(".contact_div").hide();
+    $(".how_it_works_div").hide();
+    $(".video_div").show();
+  });
+
   $("#how_it_works").click(function(event){
     event.preventDefault();
     $(".how_it_works_div").show();
