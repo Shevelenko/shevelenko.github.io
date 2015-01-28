@@ -66,7 +66,7 @@ body {
   display: block;
   margin-left: auto;
   height: 140px;
-  padding-right: 55px;
+  padding-right: 90px;
 }
 
 .footer{
@@ -224,6 +224,8 @@ body {
 
 /* Common style */
  figure {
+  margin-left: 0;
+  margin-right: 0;
   position: relative;
   float: left;
   overflow: hidden;
