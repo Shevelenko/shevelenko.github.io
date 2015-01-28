@@ -228,7 +228,6 @@ body {
   margin-right: 0;
   position: relative;
   float: left;
-  overflow: hidden;
   width: 280px;
   height: 164px;
   /*background: #3085a3;*/
@@ -308,34 +307,34 @@ body {
 
 figure.effect-selena {
   /*background: #c98ecb;*/
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
 }
 
 figure.effect-selena img {
   opacity: 0.95;
  /* -webkit-transition: -webkit-transform 0.95s;
   transition: transform 0.95s;*/
-  -webkit-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
+  /*-webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;*/
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-selena:hover {
-  -webkit-transform: scale3d(0.97,0.97,1);
-  transform: scale3d(0.97,0.97,1);
+figure.effect-selena:hover img {
+  /*-webkit-transform: scale3d(0.97,0.97,1);
+  transform: scale3d(0.97,0.97,1);*/
   /*-webkit-transform: scale3d(1.1,1.1,1);
   transform: scale3d(1.1,1.1,1);*/
   /*width: 290px;
   height: 174px;*/
   /*-webkit-transform: scale(1.07);*/
+  -webkit-transform: scale(1);
+  transform: scale(1);
 
   /*-webkit-box-shadow: -10px 10px 5px 0px rgba(50, 50, 56, 0.29);
   -moz-box-shadow:    -10px 10px 5px 0px rgba(50, 50, 56, 0.29); 
   box-shadow:         -10px 10px 5px 0px rgba(50, 50, 56, 0.29);*/
-
-  -webkit-box-shadow: -9px 7px 25px -4px rgba(67, 71, 50, 0.8);
-  -moz-box-shadow:    -9px 7px 25px -4px rgba(67, 71, 50, 0.8);
-  box-shadow:         -9px 7px 25px -4px rgba(67, 71, 50, 0.8);
 }
 
 figure.effect-selena h2 {
