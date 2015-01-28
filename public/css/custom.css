@@ -231,9 +231,12 @@ body {
   text-align: center;
   cursor: pointer;
   overflow: hidden;
-  -webkit-box-shadow: 6px 6px 9px 0px rgba(112,112,112,1);
--moz-box-shadow: 6px 6px 9px 0px rgba(112,112,112,1);
-box-shadow: 6px 6px 9px 0px rgba(112,112,112,1);
+  /*-webkit-box-shadow: 5px -4px 8px 5px rgba(50, 50, 56, 0.39);
+  -moz-box-shadow:    5px -4px 8px 5px rgba(50, 50, 56, 0.39);
+  box-shadow:         5px -4px 8px 5px rgba(50, 50, 56, 0.39);*/
+  -webkit-box-shadow: -10px 10px 5px 0px rgba(50, 50, 56, 0.29);
+  -moz-box-shadow:    -10px 10px 5px 0px rgba(50, 50, 56, 0.29); 
+  box-shadow:         -10px 10px 5px 0px rgba(50, 50, 56, 0.29);
 }
 
  figure img {
