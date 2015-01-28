@@ -224,8 +224,7 @@ body {
   position: relative;
   float: left;
   overflow: hidden;
-  min-width: 280px;
-  max-width: 280px;
+  width: 280px;
   height: 164px;
   /*background: #3085a3;*/
   text-align: center;
@@ -311,8 +310,15 @@ figure.effect-selena img {
 }
 
 figure.effect-selena:hover img {
-  -webkit-transform: scale3d(0.95,0.95,1);
-  transform: scale3d(0.95,0.95,1);
+
+  -webkit-transform: scale3d(1.1,1.1,1);
+  transform: scale3d(1.1,1.1,1);
+  /*width: 290px;
+  height: 174px;*/
+
+  /*-webkit-box-shadow: -10px 10px 5px 0px rgba(50, 50, 56, 0.29);
+  -moz-box-shadow:    -10px 10px 5px 0px rgba(50, 50, 56, 0.29); 
+  box-shadow:         -10px 10px 5px 0px rgba(50, 50, 56, 0.29);*/
 }
 
 figure.effect-selena h2 {
