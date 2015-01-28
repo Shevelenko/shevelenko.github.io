@@ -70,7 +70,10 @@ body {
 }
 
 .footer{
-  margin-bottom: 7%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+  color: #635002;
 }
 
 .video_screen {
