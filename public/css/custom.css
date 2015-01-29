@@ -234,12 +234,6 @@ body {
   text-align: center;
   cursor: pointer;
   overflow: hidden;
-  /*-webkit-box-shadow: 5px -4px 8px 5px rgba(50, 50, 56, 0.39);
-  -moz-box-shadow:    5px -4px 8px 5px rgba(50, 50, 56, 0.39);
-  box-shadow:         5px -4px 8px 5px rgba(50, 50, 56, 0.39);*/
-  /*-webkit-box-shadow: -10px 10px 5px 0px rgba(50, 50, 56, 0.29);
-  -moz-box-shadow:    -10px 10px 5px 0px rgba(50, 50, 56, 0.29); 
-  box-shadow:         -10px 10px 5px 0px rgba(50, 50, 56, 0.29);*/
   -webkit-box-shadow: -9px 7px 25px -4px rgba(67, 71, 50, 0.5);
   -moz-box-shadow:    -9px 7px 25px -4px rgba(67, 71, 50, 0.5);
   box-shadow:         -9px 7px 25px -4px rgba(67, 71, 50, 0.5);
@@ -311,10 +305,6 @@ figure.effect-selena {
 
 figure.effect-selena img {
   opacity: 0.95;
- /* -webkit-transition: -webkit-transform 0.95s;
-  transition: transform 0.95s;*/
-  /*-webkit-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;*/
   -webkit-transform: scale(1.15);
   transform: scale(1.15);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -322,19 +312,8 @@ figure.effect-selena img {
 }
 
 figure.effect-selena:hover img {
-  /*-webkit-transform: scale3d(0.97,0.97,1);
-  transform: scale3d(0.97,0.97,1);*/
-  /*-webkit-transform: scale3d(1.1,1.1,1);
-  transform: scale3d(1.1,1.1,1);*/
-  /*width: 290px;
-  height: 174px;*/
-  /*-webkit-transform: scale(1.07);*/
   -webkit-transform: scale(1);
   transform: scale(1);
-
-  /*-webkit-box-shadow: -10px 10px 5px 0px rgba(50, 50, 56, 0.29);
-  -moz-box-shadow:    -10px 10px 5px 0px rgba(50, 50, 56, 0.29); 
-  box-shadow:         -10px 10px 5px 0px rgba(50, 50, 56, 0.29);*/
 }
 
 figure.effect-selena h2 {
@@ -359,9 +338,6 @@ figure.effect-selena p {
   margin-left: auto;
   margin-right: auto;
   background-color:rgba(0, 0, 0, 0.5);
-  /*text-shadow: black 0.2em 0.2em 0.2em;
-  text-shadow: black 0.2em 0.2em 0.2em;
-  text-shadow: black 0.2em 0.2em 0.2em;*/
 }
 
 figure.effect-selena:hover h2 {
